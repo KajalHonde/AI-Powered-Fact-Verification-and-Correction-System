@@ -1,8 +1,8 @@
 # Truth Grounder AI
 
-#AI-Powered Fact Verification and Correction System
+### AI-Powered Fact Verification and Correction System
 
-#Overview
+## Overview
 
 Truth Grounder AI is an advanced Natural Language Processing (NLP) and Generative AI system designed to automatically verify factual claims and generate corrected outputs. The system combines Claim Extraction, Retrieval-Augmented Generation (RAG), Natural Language Inference (NLI), and Transformer-based language models to provide reliable and evidence-based fact verification.
 
@@ -10,17 +10,17 @@ The primary objective of this project is to combat misinformation by validating 
 
 ---
 
-#Key Features
+## Key Features
 
-#Claim Extraction
+### Claim Extraction
 
 Identifies factual claims from unstructured text using NLP techniques.
 
-#Retrieval-Augmented Generation (RAG)
+### Retrieval-Augmented Generation (RAG)
 
 Retrieves relevant evidence and supporting information from external knowledge sources.
 
-#Natural Language Inference (NLI)
+### Natural Language Inference (NLI)
 
 Evaluates whether a claim is supported, contradicted, or insufficiently supported by the retrieved evidence.
 
@@ -28,7 +28,7 @@ Evaluates whether a claim is supported, contradicted, or insufficiently supporte
 
 Generates factually accurate corrections for false or misleading claims.
 
-#Modular Architecture
+### Modular Architecture
 
 Designed with independent components to improve scalability, maintainability, and future extensibility.
 
@@ -36,6 +36,7 @@ Designed with independent components to improve scalability, maintainability, an
 
 ## System Architecture
 
+```text
 User Input Text
         ↓
 Claim Extractor
@@ -47,10 +48,13 @@ NLI Verifier
 Editor Agent
         ↓
 Verified & Corrected Output
+```
+
 ---
 
 ## Project Structure
 
+```text
 NLP_Project/
 │
 ├── claim_extractor.py       # Extracts factual claims
@@ -61,22 +65,23 @@ NLP_Project/
 ├── phase1_setup.py          # Initial configuration
 ├── requirements.txt         # Dependencies
 └── README.md                # Documentation
+```
 
 ---
 
 ## Technology Stack
 
-#Programming Language
+### Programming Language
 
 * Python
 
-#Artificial Intelligence & NLP
+### Artificial Intelligence & NLP
 
 * Natural Language Processing (NLP)
 * Machine Learning
 * Generative AI
 
-#Core Technologies
+### Core Technologies
 
 * Retrieval-Augmented Generation (RAG)
 * Natural Language Inference (NLI)
@@ -84,7 +89,7 @@ NLP_Project/
 * Semantic Search
 * Sentence Embeddings
 
-#Libraries & Frameworks
+### Libraries & Frameworks
 
 * Transformers
 * PyTorch
@@ -95,7 +100,7 @@ NLP_Project/
 
 ---
 
-#Workflow
+## Workflow
 
 1. Accepts user-provided text as input.
 2. Extracts factual claims from the text.
@@ -107,17 +112,23 @@ NLP_Project/
 
 ---
 
-#Example
+## Example
 
-Input: Vaccines cause autism.
+### Input
 
-Verification Result: False
+Vaccines cause autism.
 
-Corrected Statement: Scientific research has consistently shown that vaccines do not cause autism.
+### Verification Result
+
+False
+
+### Corrected Statement
+
+Scientific research has consistently shown that vaccines do not cause autism.
 
 ---
 
-#Applications
+## Applications
 
 * Automated Fact-Checking Systems
 * Misinformation Detection
@@ -128,7 +139,7 @@ Corrected Statement: Scientific research has consistently shown that vaccines do
 
 ---
 
-#Future Enhancements
+## Future Enhancements
 
 * Web-Based Interface using Streamlit
 * Real-Time Fact Verification through External APIs
@@ -139,7 +150,7 @@ Corrected Statement: Scientific research has consistently shown that vaccines do
 
 ---
 
-#Key Learning Outcomes
+## Key Learning Outcomes
 
 * Applied NLP techniques for claim extraction and text understanding.
 * Implemented Retrieval-Augmented Generation (RAG) pipelines.
@@ -151,6 +162,7 @@ Corrected Statement: Scientific research has consistently shown that vaccines do
 
 ## Author
 
-Kajal Honde
+**Kajal Honde**
 B.Tech – Artificial Intelligence & Machine Learning
 Aspiring AI Engineer | NLP & Generative AI Enthusiast
+
